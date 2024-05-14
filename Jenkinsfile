@@ -13,11 +13,13 @@ date'''
         stage('Test') {
           steps {
             echo 'this is test run case '
-            sh 'date'
+            sh 'pwd'
+            sh '''date
+'''
           }
         }
 
-        stage('error') {
+        stage('Test par') {
           steps {
             echo 'Before Deploy the brach will check as well '
           }
