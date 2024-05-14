@@ -30,8 +30,7 @@ date'''
 
     stage('Deploy to test') {
       steps {
-        sleep 10
-        mail(subject: 'Deployement ', body: 'Hi, This is blue ocean it will come from jenkins', to: 'vipulb.patil580@gmail.com')
+        echo 'Test success'
       }
     }
 
