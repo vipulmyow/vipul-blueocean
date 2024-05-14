@@ -13,7 +13,7 @@ date'''
         stage('Test') {
           steps {
             echo 'this is test run case '
-            sh 'time'
+            sh 'date'
           }
         }
 
